@@ -1,0 +1,10 @@
+.Google-translate{
+    background-color: #fff;
+    height: 30px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+    color: #000;
+}

@@ -1,0 +1,24 @@
+.logoWeb {
+
+
+    height: 60px;
+    width: 60px;
+}
+
+.nav{
+    z-index: 1000;
+}
+
+ul li:hover{
+    color:darkgreen;
+    font-weight: 700;
+    transform: scale(1.1);
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .inPhone {
+        display: none;
+    }
+}

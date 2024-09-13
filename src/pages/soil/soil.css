@@ -1,0 +1,93 @@
+.cardContainer{
+    margin: 0;
+    padding: 0;
+    /* background-color: #000; */
+    background-color: #E0E0E0;
+    color:#000;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.card{
+    background-color: #fff;
+    border-radius: 20px;
+    border:0;
+    height: 400px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+}
+
+.card .right{
+    /* border: 2px solid red; */
+    background: url("../../components/img/uncle.png");
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 45%;
+}
+
+
+
+.card .left{
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 55%;
+    background-color: #006401;
+    border-radius: 10px;
+    border: 0;
+}
+
+.box-1{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+.box-1 .text{
+    /* border: 2px solid red; */
+    /* position: absolute; */
+    font-size: 25px;
+    font-weight: 800;
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+
+}
+
+.box-1 .btn-container{
+    /* border:2px solid red; */
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+
+.box-1 .btn-container .btn{
+    width: 150px;
+    /* border:2px solid red; */
+    background-color: #FEA500;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    border:0;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+
+}

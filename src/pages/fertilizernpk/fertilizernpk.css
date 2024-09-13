@@ -1,0 +1,39 @@
+.input-npk{
+    width: 700px;
+    height: 450px;
+    /* border: 2px solid #000; */
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    gap: 20px;
+  }
+
+  .input-npk-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: 2px solid red; */
+    padding: 10px;
+    gap:10px;
+  }
+  
+  
+  .input-npk-container label{
+    font-size: 25px ;
+    font-weight: 600;
+    color: #FEA500;
+  }
+  
+  .input-npk-container input.npk-input{
+    width: 600px;
+    height: 50px;
+    font-weight: 700;
+    border: 2px solid #000;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: 25px;
+    color: #006401;
+  }
